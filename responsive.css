@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1005px) {
+
+    .cards{
+        flex-direction: column;
+        height: 500px;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .left-col{
+        width: 100%;
+    flex-direction: row;
+    align-items: center;
+    height: 30%;
+    }
+    .text1{
+        font-size: 6rem;
+    }
+    .right-col{
+        height: 30%;
+    width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 848px){
+
+    .text1{
+        font-size: 5rem;
+    }
+    .right-col{
+        margin-left: -1vw;
+    }
+}
+
+@media only screen and (max-width: 737px){
+
+    .text1{
+        font-size: 4rem;
+    }
+    .text2{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 561px){
+
+    .cards{
+        display: none;
+    }
+}
